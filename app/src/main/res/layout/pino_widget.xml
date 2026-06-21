@@ -11,15 +11,15 @@
     android:paddingVertical="3dp">
 
     <FrameLayout
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginEnd="2dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="10dp"
         android:background="@drawable/widget_icon_badge">
 
         <ImageView
             android:id="@+id/widget_icon"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_gravity="center"
             android:contentDescription="@string/widget_description"
             android:src="@drawable/main_ic"

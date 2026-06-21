@@ -1,6 +1,7 @@
 package com.crescenzi.pino;
 
 import android.accessibilityservice.AccessibilityService;
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Handler;
 import android.os.Looper;
@@ -17,6 +18,7 @@ import android.view.accessibility.AccessibilityEvent;
  * <p>Note: this is an accessibility-API "abuse" that is fine for a personal /
  * sideloaded build but is not allowed on the Play Store.
  */
+@SuppressLint("AccessibilityPolicy")
 public class PinoAccessibilityService extends AccessibilityService {
 
     // == Polling == //

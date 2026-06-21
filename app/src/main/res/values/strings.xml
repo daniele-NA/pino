@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Pino</string>
-    <string name="widget_description">Pino widget</string>
+    <string name="widget_description">Shows your Wi-Fi IP and network at a glance</string>
     <string name="widget_ip_label">IP: %1$s</string>
     <string name="widget_ssid_label">Wi-Fi: %1$s</string>
     <string name="widget_value_unknown">—</string>

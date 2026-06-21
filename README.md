@@ -1,39 +1,27 @@
 # Pino
 
-A tiny Android **home screen widget** that shows your phone's **local Wi-Fi IP** and the
-connected **Wi-Fi network (SSID)** at a glance — handy for grabbing that IP fast while
-working over ADB.
+Pino puts your phone's Wi-Fi details right on your home screen.
 
-## Features
+A small widget shows, at a glance:
 
-- 4×1 home screen widget with the Wi-Fi IP and SSID.
-- **Real-time updates**: a `ConnectivityManager` network callback backed by a
-  `PendingIntent` refreshes the widget on every Wi-Fi change — no polling, survives
-  process death.
-- Fixed violet gradient background; text/icon colors adapt to light/dark.
+- your phone's **local IP address**
+- the **Wi-Fi network** you're connected to
 
-## Tech
+It refreshes on its own as your connection changes, so what you see is always current —
+handy whenever you need your phone's IP in a hurry.
 
-- Java + Android Views (no Kotlin/Compose).
-- Material 3 (`Theme.Material3.DayNight`), Roboto font (`res/font/roboto.ttf`).
-- `minSdk` 28, `targetSdk` 37, `compileSdk` 37.
+## Adding the widget
 
-## Build
+Long-press an empty spot on your home screen, choose **Widgets**, find **Pino**, and drop
+it where you like.
 
-```bash
-./gradlew :app:assembleDebug
-```
+## Keeping it up to date
 
-## Permissions
+Open the app once and turn on **background updates** so the widget keeps refreshing even
+when the app isn't open.
 
-`ACCESS_FINE_LOCATION` is required to read the Wi-Fi SSID (Android platform rule). The app
-requests it on first launch; until granted, the widget shows a hint instead of the SSID.
-`ACCESS_WIFI_STATE` / `ACCESS_NETWORK_STATE` are used to read the IP and watch for changes.
-
-## Usage
-
-Long-press an empty spot on your home screen → **Widgets** → **Pino**, then drop the 4×1
-widget where you want it.
+Pino may ask for location access — Android requires it just to read the name of the Wi-Fi
+network. Pino doesn't track your location or collect any personal data.
 
 ## License
 

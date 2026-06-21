@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Pino</string>
+    <string name="widget_description">Pino widget</string>
+    <string name="widget_ip_label">IP: %1$s</string>
+    <string name="widget_ssid_label">Wi-Fi: %1$s</string>
+    <string name="widget_value_unknown">—</string>
+    <string name="widget_permission_needed">Location permission needed</string>
+    <string name="home_title">Your Wi-Fi, at a glance</string>
+    <string name="home_body">Pino\'s widget keeps your phone\'s local IP and Wi-Fi network right on your home screen — perfect for grabbing that IP in a flash while you\'re wiring things up over ADB.\n\nTo add it: long-press your home screen → Widgets → Pino.</string>
+
+    <!-- Accessibility service -->
+    <string name="accessibility_service_summary">Keeps the Wi-Fi widget up to date in the background</string>
+    <string name="accessibility_service_description">Pino uses this service to stay active in the background so its home screen widget can keep showing your current Wi-Fi IP address and network name without delay.\n\nIt does not read your screen, capture what you do, or interact with other apps. It only checks your Wi-Fi connection every few seconds and refreshes the widget when the IP address or network changes.</string>
+
+    <!-- Home screen action -->
+    <string name="enable_background_updates">Enable background updates</string>
+    <string name="background_updates_enabled">Background updates are on</string>
+</resources>

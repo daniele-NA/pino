@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Brand -->
+    <color name="primary">#FFCDB4FF</color>
+
+    <!-- Launcher icon -->
+    <color name="launcher_background">#FF000000</color>
+
+    <!-- Widget background gradient (fixed in both light and dark) -->
+    <color name="widget_gradient_start">#FF9D7BEA</color>
+    <color name="widget_gradient_center">#FF7C5CD6</color>
+    <color name="widget_gradient_end">#FF5436A8</color>
+
+    <!-- Widget content over the gradient (overridden in values-night) -->
+    <color name="widget_text">#FF000000</color>
+    <color name="widget_text_secondary">#CC000000</color>
+    <color name="widget_badge">#FFFFFFFF</color>
+
+    <!-- Home screen halo glow -->
+    <color name="home_halo_start">#66CDB4FF</color>
+    <color name="home_halo_center">#33CDB4FF</color>
+    <color name="home_halo_end">#00CDB4FF</color>
+
+</resources>

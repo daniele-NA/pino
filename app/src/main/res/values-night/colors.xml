@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <!-- Widget content over the gradient: white in dark mode, dark badge -->
-    <color name="widget_text">#FFFFFFFF</color>
-    <color name="widget_text_secondary">#CCFFFFFF</color>
-    <color name="widget_badge">#FF1C1B1F</color>
-
-</resources>

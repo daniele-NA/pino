@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/widget_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,22 +8,22 @@
     android:gravity="center_vertical"
     android:orientation="horizontal"
     android:paddingHorizontal="12dp"
-    android:paddingVertical="2dp">
+    android:paddingVertical="3dp">
 
     <FrameLayout
-        android:layout_width="46dp"
-        android:layout_height="46dp"
-        android:layout_marginEnd="12dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="2dp"
         android:background="@drawable/widget_icon_badge">
 
         <ImageView
             android:id="@+id/widget_icon"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:layout_gravity="center"
             android:contentDescription="@string/widget_description"
             android:src="@drawable/main_ic"
-            android:tint="@color/widget_text" />
+            app:tint="@color/widget_text" />
     </FrameLayout>
 
     <LinearLayout
@@ -35,11 +36,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
-            android:fontFamily="@font/roboto"
+            android:fontFamily="@font/google_sans_flex_black"
             android:singleLine="true"
             android:textColor="@color/widget_text"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/widget_ssid"

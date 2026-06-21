@@ -115,8 +115,8 @@ public class PinoWidget extends AppWidgetProvider {
             }
         }
 
-        views.setTextViewText(R.id.widget_ip, context.getString(R.string.widget_ip_label, ip));
-        views.setTextViewText(R.id.widget_ssid, context.getString(R.string.widget_ssid_label, ssid));
+        views.setTextViewText(R.id.widget_ip, ip);
+        views.setTextViewText(R.id.widget_ssid, ssid);
         views.setOnClickPendingIntent(R.id.widget_root, openAppPendingIntent(context));
         return views;
     }

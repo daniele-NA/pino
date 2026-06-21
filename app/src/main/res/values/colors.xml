@@ -12,10 +12,10 @@
     <color name="widget_gradient_center">#FF7C5CD6</color>
     <color name="widget_gradient_end">#FF5436A8</color>
 
-    <!-- Widget content over the gradient (overridden in values-night) -->
-    <color name="widget_text">#FF000000</color>
-    <color name="widget_text_secondary">#CC000000</color>
-    <color name="widget_badge">#FFFFFFFF</color>
+    <!-- Widget content over the gradient (fixed: same in light and dark) -->
+    <color name="widget_text">#FFFFFFFF</color>
+    <color name="widget_text_secondary">#CCFFFFFF</color>
+    <color name="widget_badge">#FF1C1B1F</color>
 
     <!-- Home screen halo glow -->
     <color name="home_halo_start">#66CDB4FF</color>
